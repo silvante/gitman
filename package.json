@@ -1,0 +1,12 @@
+{
+  "name": "gitman",
+  "version": "1.0.0",
+  "description": "Just to kill pain",
+  "license": "ISC",
+  "author": "Mardonbek Khamidov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
