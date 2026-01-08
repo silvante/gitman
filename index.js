@@ -44,19 +44,22 @@ switch (command) {
             console.log("\n📤 pushing changes...");
             execSync(`git push`);
 
+            console.log("\n🎉 You are good to go...");
+
         } catch (error) {
             console.log("❌ Failed contribute to repo:", error.message);
         }
+        break;
 
     default:
         if (command == undefined) {
             break;
         }
         console.error(`
-    ❌ Unknown command "${command}"
+        ❌ Unknown command "${command}"
 
-    Available commands:
-      gitman cont "initial commit"
-    `);
+        Available commands:
+          gitman cont "initial commit"
+        `);
     break;
 }
