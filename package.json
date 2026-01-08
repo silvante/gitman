@@ -16,5 +16,8 @@
     "cli",
     "gitman",
     "xamidov_uz"
-  ]
+  ],
+  "publishConfig": {
+    "@xamidov_uz:registry": "https://npm.pkg.github.com"
+  }
 }
